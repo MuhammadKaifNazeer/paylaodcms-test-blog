@@ -86,8 +86,8 @@ export interface Media {
  */
 export interface BlogArticle {
   id: string;
-  title?: string | null;
-  description?: string | null;
+  title: string;
+  description: string;
   updatedAt: string;
   createdAt: string;
 }
